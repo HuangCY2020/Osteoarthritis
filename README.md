@@ -21,13 +21,11 @@ health1.data <- Read10X(data.dir = "/home/huangcy/data/project/OA/D10/outs/filte
 health1 <- CreateSeuratObject(counts = health1.data, project = "Health1", min.cells = 3, min.features = 200)
 ```
 ### 3.2 QC and selecting cells for further analysis
-### 3.3 Normalizing the data
-### 3.4 Identification of highly variable features
-### 3.5 Scaling the data
-### 3.6 Perform linear dimensional reduction
-### 3.7 Cluster the cells and run non-linear dimensional reduction (UMAP/tSNE)
-### 3.8 Finding differentially expressed features (cluster biomarkers)
-### 3.9 Assigning cell type identity to clusters
+### 3.3 Normalizing the data, Identification of highly variable features, Scaling the data
+### 3.4 Perform linear dimensional reduction
+### 3.5 Cluster the cells and run non-linear dimensional reduction (UMAP/tSNE)
+### 3.6 Finding differentially expressed features (cluster biomarkers)
+### 3.7 Assigning cell type identity to clusters
 ##  4.scRNA-seq integration of OA samples and healthy sample
 ### 4.1 Load dataset and perform integration
 e.g., <br>
